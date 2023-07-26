@@ -53,11 +53,6 @@ struct LandmarkList: View {
                     } label: {
                         Text("Badge")
                     }
-//                    Button {
-//                        print("Badge Did Click")
-//                    } label: {
-//                        Text("Badge")
-//                    }
                 }
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -65,6 +60,14 @@ struct LandmarkList: View {
                         debugPrint("Add new did Click")
                     } label: {
                         Text("Add")
+                    }
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink {
+                        CombineWithNotification()
+                    } label: {
+                        Text("Combine")
                     }
                 }
             }

@@ -28,6 +28,7 @@
 		0AD544D22A67850C0047B861 /* ForSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD544D12A67850C0047B861 /* ForSwiftUITests.swift */; };
 		0AD544DC2A67850C0047B861 /* ForSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD544DB2A67850C0047B861 /* ForSwiftUIUITests.swift */; };
 		0AD544DE2A67850C0047B861 /* ForSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD544DD2A67850C0047B861 /* ForSwiftUIUITestsLaunchTests.swift */; };
+		0ADAC4502A6F914700937C75 /* CombineWithNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADAC44F2A6F914700937C75 /* CombineWithNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		0AD544D72A67850C0047B861 /* ForSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD544DB2A67850C0047B861 /* ForSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForSwiftUIUITests.swift; sourceTree = "<group>"; };
 		0AD544DD2A67850C0047B861 /* ForSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ADAC44F2A6F914700937C75 /* CombineWithNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineWithNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		0AD544BF2A6785080047B861 /* ForSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0ADAC44E2A6F912100937C75 /* Notification */,
 				0AD544C02A6785080047B861 /* ForSwiftUIApp.swift */,
 				0A24370B2A67B89200A1F442 /* Views */,
 				0A24370C2A67B89E00A1F442 /* Model */,
@@ -215,6 +218,14 @@
 				0AD544DD2A67850C0047B861 /* ForSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = ForSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		0ADAC44E2A6F912100937C75 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				0ADAC44F2A6F914700937C75 /* CombineWithNotification.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +367,7 @@
 				0AA821F32A67DF66004E209A /* FavoriteButton.swift in Sources */,
 				0A2437132A67C2C400A1F442 /* LandmarkList.swift in Sources */,
 				0AA821FE2A6808BD004E209A /* BadgeSymbol.swift in Sources */,
+				0ADAC4502A6F914700937C75 /* CombineWithNotification.swift in Sources */,
 				0AA822002A680984004E209A /* RotatedBadgeSymbol.swift in Sources */,
 				0A2437152A67C3D800A1F442 /* LandmarkDetail.swift in Sources */,
 				0AA821FC2A68039E004E209A /* BadgeBackground.swift in Sources */,
